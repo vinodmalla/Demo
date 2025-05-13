@@ -13,16 +13,16 @@ import AI from './Components/AI'
 import Carrers from './Components/Carrers'
 import Contact from './Components/Contact'
 import ScrollTop from './Components/ScrollTop'
+import Footer from './Components/Footer'
 
 
 function App() {
-  
-
   return (
     <>
       <Header />
       <ScrollTop />
       <Outlet/>
+      <Footer />
       
         
     </>

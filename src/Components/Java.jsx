@@ -6,81 +6,74 @@ import { BsFillPeopleFill } from 'react-icons/bs';
 import { Button } from '@mui/material';
 import { X } from 'react-feather';
 
-const awsServices = [
+const javaServices = [
   {
     icon: <AiOutlineApi className="w-6 h-6 text-blue-600" />,
-    title: 'AWS Cloud Architecture & Strategy',
-    description: 'Design scalable, secure, and high-performance cloud environments aligned with your business goals.',
+    title: 'Custom Java Application Development',
+    description:
+      'From enterprise applications to web platforms and mobile solutions, we build robust and secure Java-based systems tailored to your needs.',
   },
   {
     icon: <MdUpdate className="w-6 h-6 text-blue-600" />,
-    title: 'Cloud Migration Services',
-    description: 'Seamlessly migrate on-premises applications, workloads, and databases to AWS with minimal disruption.',
+    title: 'Legacy System Modernization',
+    description:
+      'Upgrade legacy applications to modern Java architectures to improve performance, scalability, and security.',
   },
   {
     icon: <MdSettings className="w-6 h-6 text-blue-600" />,
-    title: 'Security & Compliance Solutions',
-    description: 'Implement robust cloud security frameworks and ensure compliance with industry standards like GDPR, HIPAA, and SOC2.',
+    title: 'API Development & System Integration',
+    description:
+      'Seamlessly connect Java applications with third-party tools, cloud services, and internal systems for streamlined workflows.',
   },
   {
     icon: <FaUsers className="w-6 h-6 text-blue-600" />,
-    title: 'DevOps & Automation on AWS',
-    description: 'Streamline development pipelines with CI/CD, infrastructure as code (IaC), and automated deployments on AWS.',
-  },
-  {
-    icon: <FaHandshake className="w-6 h-6 text-blue-600" />,
-    title: 'AWS Cost Optimization & Monitoring',
-    description: 'Analyze and optimize cloud spending with custom dashboards, billing insights, and resource recommendations.',
-  },
-  {
-    icon: <FaCheckCircle className="w-6 h-6 text-blue-600" />,
-    title: 'Managed AWS Support',
-    description: 'Ongoing maintenance, monitoring, and support for your AWS infrastructure to ensure performance and uptime.',
+    title: 'Maintenance & Support',
+    description:
+      'Keep your Java applications running at peak performance with proactive support, issue resolution, and continuous improvements.',
   },
 ];
 
-const awsRoles = [
-  'AWS Cloud Engineers',
-  'DevOps Engineers (AWS CI/CD, Terraform, Ansible)',
-  'AWS Solution Architects',
-  'Cloud Security Engineers',
-  'AWS Data Engineers & Analysts',
-  'Site Reliability Engineers (SREs)',
-  'Cloud Project Managers',
+const javaRoles = [
+  'Java Developers (Core Java, Spring, Hibernate)',
+  'Full Stack Java Engineers (Java + Angular/React)',
+  'Java Architects',
+  'Java DevOps Engineers',
+  'QA & Automation Testers (Java-based frameworks)',
+  'Technical Leads & Project Managers',
 ];
 
-const awsHiringModels = [
+const hiringModels = [
   'Contract Staffing – Flexible, short-term engagements',
   'Contract-to-Hire – Evaluate before committing',
-  'Full-Time Hiring – Access top AWS professionals for long-term roles',
+  'Full-Time Hiring – Access top Java professionals for long-term roles',
   'Dedicated Offshore Teams – Cost-effective and scalable remote talent',
   'Hybrid Staffing Models – Combine onsite and remote support',
 ];
 
-const awsReasons = [
+const javaReasons = [
   {
-    title: 'Certified AWS Talent Pool',
-    description: 'Access pre-vetted AWS-certified professionals.',
-    icon: <FaUsers className="w-12 h-12 text-gray-600" />,
+    title: 'Expert Java Talent',
+    description: 'Access a pre-vetted network of certified Java professionals.',
+    icon: <FaUsers className="w-46 h-46 m-auto text-gray-600" />,
   },
   {
-    title: 'Faster Onboarding',
-    description: 'Rapid deployment of resources to meet your project deadlines.',
-    icon: <FaHandshake className="w-12 h-12 text-[#645cd8]" />,
+    title: 'Fast & Scalable Staffing',
+    description: 'Quick turnaround to onboard talent for urgent projects.',
+    icon: <FaHandshake className="w-46 h-46 m-auto text-[#645cd8]" />,
   },
   {
-    title: 'Cloud-First Expertise',
-    description: 'Deep experience in delivering cloud-native solutions across industries.',
-    icon: <BsFillPeopleFill className="w-12 h-12 text-[#136599]" />,
+    title: 'Domain Knowledge',
+    description: 'Experience across sectors including banking, retail, healthcare, logistics, and more.',
+    icon: <BsFillPeopleFill className="w-46 h-46 m-auto text-[#136599]" />,
   },
   {
-    title: 'Customized Staffing',
-    description: 'We align skills, availability, and cultural fit to your business needs.',
-    icon: <FaCheckCircle className="w-12 h-12 text-[#0d211ce2]" />,
+    title: 'End-to-End Services',
+    description: 'From talent sourcing to onboarding and performance monitoring.',
+    icon: <FaCheckCircle className="w-46 h-46 m-auto text-[#0d211ce2]" />,
   },
 ];
 
-const AWS = () => {
+const Java = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => setModalOpen(true);
@@ -92,34 +85,32 @@ const AWS = () => {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-4xl font-extrabold text-gray-900 mb-2 leading-tight drop-shadow-sm">
-            AWS Consulting & Resource Staffing Services
+            Java Development & Resource Staffing Services
           </h1>
           <p className="text-lg text-gray-600 font-semibold tracking-wide">
-            Cloud-Ready Talent. Scalable Solutions. Real Results.
+            Robust Java Solutions Backed by Skilled Talent
           </p>
         </header>
 
-        {/* Introduction */}
+        {/* Intro */}
         <section className="mb-8">
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            At Intelli Tek IT Solutions, we help businesses harness the full potential of Amazon Web Services (AWS) through expert consulting and resource staffing. Whether you're migrating to the cloud, optimizing infrastructure, or expanding your AWS project team—we deliver certified AWS professionals through flexible outsourcing and hiring models tailored to your needs. As a trusted IT consulting partner, we enable enterprises to innovate faster, reduce costs, and stay competitive in the cloud era.
+            At Intelli Tek IT Solutions, we deliver top-tier Java development services combined with flexible staffing and outsourcing solutions to help businesses innovate, scale, and succeed. With deep expertise in Java technologies and a strong pool of qualified professionals, we enable companies to accelerate development while minimizing hiring delays and overhead.
           </p>
         </section>
 
-        {/* AWS Services Section */}
+        {/* Services */}
         <section className="mb-14">
           <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
-            Our AWS Services Include:
+            Our Java Services Include:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {awsServices.map(({ icon, title, description }, idx) => (
+            {javaServices.map(({ icon, title, description }, idx) => (
               <div
                 key={idx}
                 className="group flex space-x-5 p-6 border border-gray-200 rounded-2xl shadow-sm bg-gray-50 hover:shadow-xl transition-shadow duration-300 cursor-pointer transform hover:-translate-y-1"
-                aria-label={title}
-                tabIndex={0}
               >
-                <div className="flex-shrink-0 flex items-center justify-center md:bg-blue-100 rounded-full p-3 md:shadow-lg transition-colors duration-300 group-hover:bg-blue-200">
+                <div className="flex-shrink-0 flex items-center justify-center  md:bg-blue-100 rounded-full p-3 md:shadow-md group-hover:bg-blue-200">
                   {icon}
                 </div>
                 <div className="flex flex-col justify-center">
@@ -131,43 +122,55 @@ const AWS = () => {
           </div>
         </section>
 
-        {/* Staffing Roles Section */}
+        {/* Java Roles */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
-            AWS Resource Staffing & Outsourcing Solutions
+          <h2 className="text-3xl font-bold text-black mb-6 border-b border-blue-300 pb-3">
+            Java Staffing & Resource Augmentation
           </h2>
-          <ul className="space-y-4 text-lg text-gray-700">
-            {awsRoles.map((role, idx) => (
-              <li key={idx} className="flex items-center">
-                <FaCheckCircle className="text-green-500 w-5 h-5 mr-3" />
-                {role}
-              </li>
-            ))}
-          </ul>
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <ul className="space-y-3 text-lg text-gray-700 flex-1">
+              {javaRoles.map((role, idx) => (
+                <li key={idx} className="flex items-center">
+                  <FaCheckCircle className="text-green-500 mr-3" /> {role}
+                </li>
+              ))}
+            </ul>
+           {/* <img
+              src="/Java.png"
+              alt="Java Developer Roles"
+              className="w-full md:w-[400px] h-auto rounded-lg shadow-lg"
+            /> */}
+          </div>
         </section>
 
-        {/* Hiring Models Section */}
+        {/* Hiring Models */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
-            Engagement Models:
+          <h2 className="text-3xl font-bold text-black mb-6 border-b border-blue-300 pb-3">
+            Flexible Hiring Models:
           </h2>
-          <ul className="space-y-4 text-lg text-gray-700">
-            {awsHiringModels.map((model, idx) => (
-              <li key={idx} className="flex items-center">
-                <FaCheckCircle className="text-green-500 w-5 h-5 mr-3" />
-                {model}
-              </li>
-            ))}
-          </ul>
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <ul className="space-y-3 text-lg text-gray-700 flex-1">
+              {hiringModels.map((model, idx) => (
+                <li key={idx} className="flex items-center">
+                  <FaCheckCircle className="text-green-500 mr-3" /> {model}
+                </li>
+              ))}
+            </ul>
+           {/* <img
+              src="/Java.png"
+              alt="Hiring Engagement Models"
+              className="w-full md:w-[400px] h-auto rounded-lg shadow-lg"
+            />*/}
+          </div>
         </section>
 
-        {/* Reasons to Choose AWS Expertise Section */}
+        {/* Why Choose */}
         <section className="mb-14">
           <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Why Choose Intelli Tek IT Solutions?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {awsReasons.map(({ icon, title, description }, idx) => (
+            {javaReasons.map(({ icon, title, description }, idx) => (
               <div key={idx} className="text-center">
                 <div className="mb-4">{icon}</div>
                 <h3 className="text-2xl font-semibold text-black mb-2">{title}</h3>
@@ -177,13 +180,13 @@ const AWS = () => {
           </div>
         </section>
 
-        {/* Footer / Contact */}
+        {/* Footer */}
         <footer className="text-center">
           <h2 className="text-2xl font-semibold text-black mb-4 drop-shadow-sm">
-            Build, Scale & Succeed on AWS with the Right Talent
+            Build, Scale & Succeed with the Right Java Talent
           </h2>
           <p className="text-gray-700 mb-8 px-4 md:px-32 max-w-3xl mx-auto leading-relaxed tracking-wide">
-            Whether you're starting your cloud journey or expanding a mature AWS ecosystem, Intelli Tek IT Solutions provides the expertise and people to power your success.
+            Whether you're building a complex enterprise application or scaling your development team, Intelli Tek IT Solutions provides the expertise and people to power your success.
           </p>
           <Button
             variant="contained"
@@ -198,7 +201,7 @@ const AWS = () => {
             }}
             onClick={openModal}
           >
-            📞 Contact us today to explore our AWS staffing and consulting services
+            📞 Contact us today to explore our Java staffing and consulting services
           </Button>
         </footer>
       </div>
@@ -213,7 +216,7 @@ const AWS = () => {
         >
           <div
             className="bg-white rounded-xl shadow-lg max-w-md w-full p-8 relative"
-            onClick={e => e.stopPropagation()}
+            onClick={(e) => e.stopPropagation()}
           >
             <button
               onClick={closeModal}
@@ -226,17 +229,30 @@ const AWS = () => {
               Contact Us
             </h3>
             <p className="mb-6 text-gray-700 text-center">
-              Reach out via email at <a href="mailto:contact@intellitek.com" className="text-indigo-600 underline">contact@intellitek.com</a> or call <a href="tel:+1234567890" className="text-indigo-600 underline">+1 (234) 567-890</a>.
+              Reach out via email at{' '}
+              <a
+                href="mailto:contact@intellitek.com"
+                className="text-blue-600 font-medium underline"
+              >
+                contact@intellitek.com
+              </a>{' '}
+              and our team will get back to you promptly.
             </p>
-            <Button
-              variant="contained"
-              color="primary"
-              fullWidth
-              onClick={closeModal}
-              sx={{ fontWeight: 'bold', textTransform: 'none' }}
-            >
-              Close
-            </Button>
+            <div className="text-center">
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={closeModal}
+                sx={{
+                  fontWeight: 'bold',
+                  px: 4,
+                  py: 1,
+                  textTransform: 'none',
+                }}
+              >
+                Close
+              </Button>
+            </div>
           </div>
         </div>
       )}
@@ -244,4 +260,4 @@ const AWS = () => {
   );
 };
 
-export default AWS;
+export default Java;

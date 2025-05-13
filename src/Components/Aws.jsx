@@ -138,15 +138,14 @@ const Aws = () => {
           </h2>
           <ul className="space-y-4 text-lg text-gray-700">
             {awsRoles.map((role, idx) => (
-              <li key={idx} className="flex items-center">
-                <FaCheckCircle className="text-green-500 w-5 h-5 mr-3" />
-                {role}
+              <li key={idx} className="flex items-center"> <FaCheckCircle className="text-green-500 mr-3 w-4 h-4 md:w-5 md:h-5 md:mr-3" />
+               
+              <p className='ml-6'>{role}</p>
               </li>
             ))}
           </ul>
         </section>
 
-        {/* Hiring Models Section */}
         <section className="mb-14">
           <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Engagement Models:
@@ -154,14 +153,13 @@ const Aws = () => {
           <ul className="space-y-4 text-lg text-gray-700">
             {awsHiringModels.map((model, idx) => (
               <li key={idx} className="flex items-center">
-                <FaCheckCircle className="text-green-500 w-5 h-5 mr-3" />
-                {model}
+                <FaCheckCircle className="text-green-500 mr-3 w-4 h-4 md:w-5 md:h-5 md:mr-3" />
+                <p className='ml-6'>{model}</p>
               </li>
             ))}
           </ul>
         </section>
 
-        {/* Reasons to Choose AWS Expertise Section */}
         <section className="mb-14">
           <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Why Choose Intelli Tek IT Solutions?
@@ -180,7 +178,7 @@ const Aws = () => {
         </section>
 
         {/* Footer / Contact */}
-        <footer className="text-center">
+        <footer className="text-center ">
           <h2 className="text-2xl font-semibold text-black mb-4 drop-shadow-sm">
             Build, Scale & Succeed on AWS with the Right Talent
           </h2>

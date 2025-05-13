@@ -1,19 +1,19 @@
 import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logo1 from "../logo1.png";
+import logo1 from "../logo2.png";
 
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const [click,setClick]=useState(null)
+
  
 
   return (
    <div className='fixed top-0 left-0 w-full z-50 bg-white shadow-md flex items-center justify-between h-16 px-4 md:px-8'>
       <div className='flex'>
         <Link to="/">
-          <img className='w-46 md:w-64' src={logo1} alt='diya' />
+          <img className='w-46 md:w-64' src={logo1} alt='Intelli Tek' />
         </Link>
         <h1 className=' mt-10 md:mt-14 p-0  text-sm text-black font-semibold  md:text-2xl md:font-bold'>Intelli Tek IT Solutions</h1>
       </div>
