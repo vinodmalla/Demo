@@ -124,7 +124,7 @@ export default function Services() {
       <div className="py-12 px-6 text-center bg-gray-50">
         <h1 className="text-2xl font-bold text-gray-800 mb-4">Detailed Service Section</h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 p-6 md:p-10 bg-gray-100">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 bg-gray-100 rounded-xl">
         {Services.map((service, index) => (
           <div
             key={index}

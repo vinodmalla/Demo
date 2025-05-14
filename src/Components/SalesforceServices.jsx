@@ -125,7 +125,7 @@ const SalesforceServices = () => {
           </section>
 
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-6 border-b border-blue-300 pb-3">Why Choose Intelli Tek IT Solutions?</h2>
+            <h2 className="text-xl font-bold text-black mb-6 border-b border-blue-300 pb-3">Why Choose Intelli Tek IT Solutions?</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 bg-gray-100 rounded-xl">
               {staffingPoints.map((reason, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 text-center shadow hover:shadow-md transition-transform hover:scale-105">

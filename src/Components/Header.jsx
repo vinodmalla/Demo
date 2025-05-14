@@ -16,7 +16,7 @@ export default function Header() {
           <img className='w-60 md:w-64' src={logo1} alt='Intelli Tek' />
         </Link>
         <Link to="/">
-        <h1 className=' mt-10 md:mt-14 p-0  text-sm text-black font-semibold  md:text-xl md:font-bold'>Intelli Tek IT Solutions</h1>
+        <h1 className=' mt-10 md:mt-14 p-0  text-sm sm:text-xs text-black font-semibold  md:text-xl md:font-bold'>Intelli Tek IT Solutions</h1>
         </Link>
       </div>
 
@@ -27,7 +27,7 @@ export default function Header() {
         </button>
       </div>
       <div className={`absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent md:flex z-40 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
-      <ul className='flex flex-col md:flex-row md:items-center md:space-x-6  p-4 md:p-14 text-black text-lg font-calibri font-semibold'>
+      <ul className='flex flex-col md:flex-row md:items-center md:space-x-6  p-4 md:p-14 text-black text-sm font-calibri font-semibold'>
         <li key={1} onClick={()=>setIsOpen(false)}  className={`py-2 px-4 hover:text-white hover:bg-black rounded-md transition  }` } ><Link to="/home">Home</Link></li>
         <li key={2} onClick={()=>setIsOpen(false)} className={`py-2 px-4 hover:text-white hover:bg-black rounded-md transition }` }><Link to="/services">Services</Link></li>
         <li key={3} onClick={()=>setIsOpen(false)} className='py-2 px-4 hover:text-white hover:bg-black rounded-md transition'><Link to={"/carrers"}>Careers</Link></li>

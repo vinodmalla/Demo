@@ -107,7 +107,7 @@ const BIConsulting = () => {
             <h2 className="text-xl font-bold text-black mb-6 border-b border-indigo-300 pb-3 tracking-wide">
               Why Choose Intelli Tek IT Solutions for BI Consulting?
             </h2>
-            <div className="grid grid-cols-1 sm:flex sm:flex-row gap-10 p-6 md:p-10 bg-gray-100">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 bg-gray-100 rounded-xl">
               {
                     biReasons.map((reason,index)=>(
                         <div className='bg-white rounded-2xl shadow-lg p-6 transform transition-all duration-300 hover:scale-105 text-center' key={index}>

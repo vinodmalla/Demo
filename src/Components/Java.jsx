@@ -169,7 +169,7 @@ const Java = () => {
           <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Why Choose Intelli Tek IT Solutions?
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4 bg-gray-100 rounded-xl">
             {javaReasons.map(({ icon, title, description }, idx) => (
               <div key={idx} className="text-center">
                 <div className="mb-4">{icon}</div>
