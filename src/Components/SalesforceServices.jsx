@@ -5,22 +5,22 @@ import Button from '@mui/material/Button';
 
 const salesforceServices = [
   {
-    icon: <Cloud className="w-6 h-6 text-blue-600 group-hover:text-blue-900" />,
+    icon: <Cloud className="w-20 h-20 md:w-6 md:h-6 text-blue-600 group-hover:text-blue-900" />,
     title: 'Salesforce Implementation & Customization',
     description: 'We design, configure, and deploy Salesforce solutions tailored to your business workflows—ensuring maximum ROI.',
   },
   {
-    icon: <Settings className="w-6 h-6 text-blue-600 group-hover:text-blue-900" />,
+    icon: <Settings className="w-20 h-20 md:w-6 md:h-6 text-blue-600 group-hover:text-blue-900" />,
     title: 'Salesforce Integration & Automation',
     description: 'Streamline your operations by integrating Salesforce with third-party apps, ERP systems, and internal tools.',
   },
   {
-    icon: <BarChart3 className="w-6 h-6 text-blue-600 group-hover:text-blue-900" />,
+    icon: <BarChart3 className="w-20 h-20 md:w-6 md:h-6 text-blue-600 group-hover:text-blue-900" />,
     title: 'Salesforce Analytics & Reporting',
     description: 'Enable smarter decisions with custom dashboards, reports, and Salesforce Einstein Analytics.',
   },
   {
-    icon: <Repeat className="w-6 h-6 text-blue-600 group-hover:text-blue-900" />,
+    icon: <Repeat className="w-20 h-20 md:w-6 md:h-6 text-blue-600 group-hover:text-blue-900" />,
     title: 'Ongoing Support & Optimization',
     description: 'We provide continuous monitoring, maintenance, and optimization of your Salesforce environment to keep it running smoothly.',
   },
@@ -30,27 +30,27 @@ const staffingPoints = [
   {
     title: 'Certified Salesforce Professionals',
     description: 'Pre-screened and technically vetted for your project needs',
-    icon: <FaUserShield className="w-46 h-46 text-blue-700 mx-auto" />,
+    icon: <FaUserShield className="w-36 h-36 text-blue-700 mx-auto" />,
   },
   {
     title: 'Quick Turnaround Time',
     description: 'Fast sourcing and onboarding to avoid project delays',
-    icon: <FaRegClock className="w-46 h-46 text-green-600 mx-auto" />,
+    icon: <FaRegClock className="w-36 h-36 text-green-600 mx-auto" />,
   },
   {
     title: 'Domain Expertise',
     description: 'Experience across industries like finance, healthcare, retail, and more',
-    icon: <FaGlobe className="w-46 h-46 text-yellow-600 mx-auto" />,
+    icon: <FaGlobe className="w-36 h-36 text-yellow-600 mx-auto" />,
   },
   {
     title: 'End-to-End Support',
     description: 'From talent sourcing and onboarding to post-placement care',
-    icon: <FaUserTie className="w-46 h-46 text-indigo-700 mx-auto" />,
+    icon: <FaUserTie className="w-36 h-36 text-indigo-700 mx-auto" />,
   },
   {
     title: 'Cost-Effective Solutions',
     description: 'Get premium talent without high overhead',
-    icon: <FaDollarSign className="w-46 h-46 text-red-600 mx-auto" />,
+    icon: <FaDollarSign className="w-36 h-36 text-red-600 mx-auto" />,
   },
 ];
 
@@ -75,17 +75,17 @@ const SalesforceServices = () => {
       <div className="font-sans mt-18 flex flex-col">
         <div className="w-full bg-white shadow-2xl rounded-xl p-8 md:p-12 animate-fadeIn">
           <header className="text-center mb-12">
-            <h1 className="text-4xl font-extrabold text-gray-900 mb-2">Salesforce Consulting & Resource Staffing Services</h1>
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">Salesforce Consulting & Resource Staffing Services</h1>
             <p className="text-lg text-gray-600 font-semibold">Empowering Your Business with Certified Salesforce Talent</p>
           </header>
 
-          <section className="mb-12 text-gray-700 text-lg leading-relaxed space-y-4 max-w-4xl mx-auto">
+          <section className="text-lg font-semibold text-gray-700 mb-6">
             <p>At Intelli Tek IT Solutions, we offer end-to-end Salesforce consulting and staffing solutions to help businesses harness the full power of the Salesforce platform. Whether you're looking to implement Salesforce, customize your CRM, or expand your team with certified professionals—we deliver the right people and expertise at the right time.</p>
             <p>As a trusted IT consulting partner, we specialize in providing Salesforce-certified talent through flexible models including outsourcing, staff augmentation, and direct hiring.</p>
           </section>
 
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3">Our Salesforce Services Include:</h2>
+            <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3">Our Salesforce Services Include:</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {salesforceServices.map(({ icon, title, description }, idx) => (
                 <div key={idx} className="group flex space-x-5 p-6 border border-gray-200 rounded-2xl shadow-sm bg-gray-50 hover:shadow-xl transition-transform hover:-translate-y-1">
@@ -102,7 +102,7 @@ const SalesforceServices = () => {
           </section>
 
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-6 border-b border-blue-300 pb-3">Salesforce Resource Staffing & Outsourcing Solutions</h2>
+            <h2 className="text-xl font-bold text-black mb-6 border-b border-blue-300 pb-3">Salesforce Resource Staffing & Outsourcing Solutions</h2>
             <div className="bg-gray-100 p-6 rounded-xl shadow-inner space-y-6">
               <h3 className="text-xl font-semibold text-gray-900">Roles We Staff:</h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

@@ -5,25 +5,25 @@ import Button from '@mui/material/Button';
 
 const dotNetServices = [
   {
-    icon: <PieChart className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <PieChart className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'Custom .NET Application Development',
     description:
       'From enterprise solutions to web and mobile apps, we build tailored .NET applications that align with your business objectives.',
   },
   {
-    icon: <BarChart3 className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <BarChart3 className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'Legacy System Modernization',
     description:
       'We help upgrade and migrate outdated systems to modern, scalable .NET architectures—enhancing performance and maintainability.',
   },
   {
-    icon: <ShieldCheck className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <ShieldCheck className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'API & System Integration',
     description:
       'Seamlessly connect your .NET apps with third-party services, internal tools, and databases for smooth operations and real-time data flow.',
   },
   {
-    icon: <Cloud className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <Cloud className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: '.NET Maintenance & Support',
     description:
       'Reliable post-deployment support, optimization, and troubleshooting to ensure your applications run efficiently.',
@@ -34,22 +34,22 @@ const dotNetReasons = [
   {
     title: 'Deep .NET Expertise',
     description: 'Years of experience delivering high-quality .NET applications across industries.',
-    icon: <FaUserTie className="w-46 h-46 text-gray-700 mx-auto" />,
+    icon: <FaUserTie className="w-36 h-36 m-auto text-gray-700 mx-auto" />,
   },
   {
     title: 'Flexible Engagement Models',
     description: 'Outsourcing, staff augmentation, or direct placement—we do it all.',
-    icon: <FaCogs className="w-46 h-46 text-[#4a63d1] mx-auto" />,
+    icon: <FaCogs className="w-36 h-36 m-auto text-[#4a63d1] mx-auto" />,
   },
   {
     title: 'Certified & Experienced Developers',
     description: 'Our team brings proven skills, agile mindset, and real-world knowledge.',
-    icon: <FaRegLightbulb className="w-46 h-46 text-[#f59e0b] mx-auto" />,
+    icon: <FaRegLightbulb className="w-36 h-36 m-auto text-[#f59e0b] mx-auto" />,
   },
   {
     title: 'Cost-Effective & Scalable',
     description: 'Get the right skills at the right time—without long-term overhead.',
-    icon: <FaCheckCircle className="w-46 h-46 text-[#059669] mx-auto" />,
+    icon: <FaCheckCircle className="w-36 h-36 m-auto text-[#059669] mx-auto" />,
   },
 ];
 
@@ -65,7 +65,7 @@ const DotNetServices = () => {
         <div className="w-full bg-white shadow-2xl rounded-xl p-8 md:p-12 animate-fadeIn">
           {/* Header */}
           <header className="text-center mb-12">
-            <h1 className="text-4xl font-extrabold text-gray-900 mb-2 leading-tight">
+            <h1 className="text-2xl font-extrabold text-gray-900 mb-2 leading-tight">
               .NET Development & Resource Staffing Services
             </h1>
             <p className="text-lg text-gray-600 font-semibold tracking-wide">
@@ -75,7 +75,7 @@ const DotNetServices = () => {
 
           {/* Content */}
           <section className="mb-14">
-            <h2 className="text-xl font-semibold text-gray-700 mb-6">
+            <h2 className="text-lg font-semibold text-gray-700 mb-6">
               At Intelli Tek IT Solutions, we specialize in providing top-tier .NET development services and
               resource staffing solutions to help businesses build robust, scalable, and secure applications.
               Whether you're looking to outsource a full .NET project or hire skilled professionals to augment
@@ -87,7 +87,7 @@ const DotNetServices = () => {
 
           {/* Our .NET Services Include */}
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-8 border-b border-indigo-300 pb-3 tracking-wide">
+            <h2 className="text-xl font-bold text-black mb-8 border-b border-indigo-300 pb-3 tracking-wide">
               Our .NET Services Include:
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -100,7 +100,7 @@ const DotNetServices = () => {
                     {icon}
                   </div>
                   <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl font-semibold text-indigo-900 mb-1">{title}</h3>
+                    <h3 className="text-xl font-semibold text-indigo-900 mb-1">{title}</h3>
                     <p className="text-gray-700 text-lg leading-relaxed">{description}</p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ const DotNetServices = () => {
 
           {/* .NET Resource Staffing & Outsourcing Solutions */}
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-8 border-b border-indigo-300 pb-3 tracking-wide">
+            <h2 className="text-xl font-bold text-black mb-8 border-b border-indigo-300 pb-3 tracking-wide">
               .NET Resource Staffing & Outsourcing Solutions
             </h2>
             <ul className="list-disc list-inside text-lg text-gray-700 space-y-4">
@@ -127,7 +127,7 @@ const DotNetServices = () => {
 
           {/* Technologies We Support */}
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-8 border-b border-indigo-300 pb-3 tracking-wide">
+            <h2 className="text-xl font-bold text-black mb-8 border-b border-indigo-300 pb-3 tracking-wide">
               Technologies We Support:
             </h2>
             <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
@@ -144,7 +144,7 @@ const DotNetServices = () => {
 
           {/* Why Choose [Your Company Name] */}
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-6 border-b border-indigo-300 pb-3 tracking-wide">
+            <h2 className="text-xl font-bold text-black mb-6 border-b border-indigo-300 pb-3 tracking-wide">
               Why Choose Intelli Tek IT Solutions?
             </h2>
             <div className="grid grid-cols-1 sm:flex sm:flex-row gap-10 p-6 md:p-10 bg-gray-100">
@@ -164,7 +164,7 @@ const DotNetServices = () => {
           {/* Footer / CTA */}
           <footer className="text-center">
             <h2 className="text-2xl font-semibold text-black mb-4 drop-shadow-sm">
-              Build Better with .NET. Scale Smarter with [Your Company Name].
+              Build Better with .NET. Scale Smarter with Intelli Tek IT .
             </h2>
             <p className="text-gray-700 mb-8 px-4 md:px-32 max-w-3xl mx-auto leading-relaxed tracking-wide">
               Contact us today to learn how our .NET development and staffing services can support your next project or team expansion.

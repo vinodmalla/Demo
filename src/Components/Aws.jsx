@@ -8,32 +8,32 @@ import { X } from 'react-feather';
 
 const awsServices = [
   {
-    icon: <AiOutlineApi className="w-6 h-6 text-blue-600" />,
+    icon: <AiOutlineApi className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'AWS Cloud Architecture & Strategy',
     description: 'Design scalable, secure, and high-performance cloud environments aligned with your business goals.',
   },
   {
-    icon: <MdUpdate className="w-6 h-6 text-blue-600" />,
+    icon: <MdUpdate className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'Cloud Migration Services',
     description: 'Seamlessly migrate on-premises applications, workloads, and databases to AWS with minimal disruption.',
   },
   {
-    icon: <MdSettings className="w-6 h-6 text-blue-600" />,
+    icon: <MdSettings className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'Security & Compliance Solutions',
     description: 'Implement robust cloud security frameworks and ensure compliance with industry standards like GDPR, HIPAA, and SOC2.',
   },
   {
-    icon: <FaUsers className="w-6 h-6 text-blue-600" />,
+    icon: <FaUsers className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'DevOps & Automation on AWS',
     description: 'Streamline development pipelines with CI/CD, infrastructure as code (IaC), and automated deployments on AWS.',
   },
   {
-    icon: <FaHandshake className="w-6 h-6 text-blue-600" />,
+    icon: <FaHandshake className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'AWS Cost Optimization & Monitoring',
     description: 'Analyze and optimize cloud spending with custom dashboards, billing insights, and resource recommendations.',
   },
   {
-    icon: <FaCheckCircle className="w-6 h-6 text-blue-600" />,
+    icon: <FaCheckCircle className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'Managed AWS Support',
     description: 'Ongoing maintenance, monitoring, and support for your AWS infrastructure to ensure performance and uptime.',
   },
@@ -61,22 +61,22 @@ const awsReasons = [
   {
     title: 'Certified AWS Talent Pool',
     description: 'Access pre-vetted AWS-certified professionals.',
-    icon: <FaUsers className="w-46 h-46 m-auto text-gray-600" />,
+    icon: <FaUsers className="w-36 h-36 m-auto text-gray-600" />,
   },
   {
     title: 'Faster Onboarding',
     description: 'Rapid deployment of resources to meet your project deadlines.',
-    icon: <FaHandshake className="w-46 h-46 m-auto text-[#645cd8]" />,
+    icon: <FaHandshake className="w-36 h-36 m-auto text-[#645cd8]" />,
   },
   {
     title: 'Cloud-First Expertise',
     description: 'Deep experience in delivering cloud-native solutions across industries.',
-    icon: <BsFillPeopleFill className="w-46 h-46 m-auto text-[#136599]" />,
+    icon: <BsFillPeopleFill className="w-36 h-36 m-auto text-[#136599]" />,
   },
   {
     title: 'Customized Staffing',
     description: 'We align skills, availability, and cultural fit to your business needs.',
-    icon: <FaCheckCircle className="w-46 h-46 m-auto text-[#0d211ce2]" />,
+    icon: <FaCheckCircle className="w-36 h-36 m-auto text-[#0d211ce2]" />,
   },
 ];
 
@@ -91,7 +91,7 @@ const Aws = () => {
       <div className="w-full bg-white shadow-2xl rounded-xl p-8 md:p-12 animate-fadeIn">
         {/* Header */}
         <header className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold text-gray-900 mb-2 leading-tight drop-shadow-sm">
+          <h1 className="text-2xl font-bold text-gray-900 mb-2 leading-tight drop-shadow-sm">
             AWS Consulting & Resource Staffing Services
           </h1>
           <p className="text-lg text-gray-600 font-semibold tracking-wide">
@@ -108,7 +108,7 @@ const Aws = () => {
 
         {/* AWS Services Section */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Our AWS Services Include:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -133,12 +133,12 @@ const Aws = () => {
 
         {/* Staffing Roles Section */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             AWS Resource Staffing & Outsourcing Solutions
           </h2>
           <ul className="space-y-4 text-lg text-gray-700">
             {awsRoles.map((role, idx) => (
-              <li key={idx} className="flex items-center"> <FaCheckCircle className="text-green-500 mr-3 w-4 h-4 md:w-5 md:h-5 md:mr-3" />
+              <li key={idx} className="flex items-center"> ✅
                
               <p className='ml-6'>{role}</p>
               </li>
@@ -147,13 +147,13 @@ const Aws = () => {
         </section>
 
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Engagement Models:
           </h2>
           <ul className="space-y-4 text-lg text-gray-700">
             {awsHiringModels.map((model, idx) => (
               <li key={idx} className="flex items-center">
-                <FaCheckCircle className="text-green-500 mr-3 w-4 h-4 md:w-5 md:h-5 md:mr-3" />
+               ✅
                 <p className='ml-6'>{model}</p>
               </li>
             ))}
@@ -161,7 +161,7 @@ const Aws = () => {
         </section>
 
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Why Choose Intelli Tek IT Solutions?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -179,7 +179,7 @@ const Aws = () => {
 
         {/* Footer / Contact */}
         <footer className="text-center ">
-          <h2 className="text-2xl font-semibold text-black mb-4 drop-shadow-sm">
+          <h2 className="text-xl font-semibold text-black mb-4 drop-shadow-sm">
             Build, Scale & Succeed on AWS with the Right Talent
           </h2>
           <p className="text-gray-700 mb-8 px-4 md:px-32 max-w-3xl mx-auto leading-relaxed tracking-wide">

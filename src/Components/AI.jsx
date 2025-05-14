@@ -6,27 +6,27 @@ import { X } from 'react-feather';
 
 const aiServices = [
   {
-    icon: <FaRobot className="w-6 h-6 text-green-600" />,
+    icon: <FaRobot className="w-20 h-20 md:w-6 md:h-6 text-green-600" />,
     title: 'AI Strategy & Consulting',
     description: 'We define a clear roadmap to integrate AI into your business operations, aligning with your goals and industry trends.',
   },
   {
-    icon: <FaBrain className="w-6 h-6 text-green-600" />,
+    icon: <FaBrain className="w-20 h-20 md:w-6 md:h-6 text-green-600" />,
     title: 'Machine Learning & Deep Learning',
     description: 'Custom ML/DL models for predictions, classification, natural language processing (NLP), computer vision, and more.',
   },
   {
-    icon: <FaChartLine className="w-6 h-6 text-green-600" />,
+    icon: <FaChartLine className="w-20 h-20 md:w-6 md:h-6 text-green-600" />,
     title: 'Data Engineering & Model Deployment',
     description: 'We manage data pipelines, model training, and scalable deployment on cloud platforms like AWS, Azure, and Google Cloud.',
   },
   {
-    icon: <AiOutlineAppstoreAdd className="w-6 h-6 text-green-600" />,
+    icon: <AiOutlineAppstoreAdd className="w-20 h-20 md:w-6 md:h-6 text-green-600" />,
     title: 'AI for Business Automation',
     description: 'Intelligent automation using AI-driven bots, recommendation engines, virtual assistants, and predictive analytics.',
   },
   {
-    icon: <FaLock className="w-6 h-6 text-green-600" />,
+    icon: <FaLock className="w-20 h-20 md:w-6 md:h-6 text-green-600" />,
     title: 'AI Ethics, Compliance & Governance',
     description: 'Implement responsible AI practices to ensure ethical, transparent, and secure use of data and algorithms.',
   },
@@ -54,22 +54,22 @@ const aiReasons = [
   {
     title: 'Access to Top AI Talent',
     description: 'Pre-screened professionals with expertise in Python, TensorFlow, PyTorch, OpenAI, Hugging Face, and more.',
-    icon: <FaRobot className="w-46 h-46 text-gray-600" />,
+    icon: <FaRobot className="w-36 h-36 text-gray-600" />,
   },
   {
     title: 'Speed & Scalability',
     description: 'Quickly scale teams based on project demand.',
-    icon: <FaBrain className="w-46 h-46 text-[#645cd8]" />,
+    icon: <FaBrain className="w-36 h-36 text-[#645cd8]" />,
   },
   {
     title: 'End-to-End Staffing Support',
     description: 'From requirement gathering to onboarding and performance tracking.',
-    icon: <AiOutlineAppstoreAdd className="w-46 h-46 text-[#136599]" />,
+    icon: <AiOutlineAppstoreAdd className="w-36 h-36 text-[#136599]" />,
   },
   {
     title: 'Cost-Effective & Flexible',
     description: 'Get the best-fit resources without the burden of long-term overhead.',
-    icon: <FaLock className="w-46 h-46 text-[#0d211ce2]" />,
+    icon: <FaLock className="w-36 h-36 text-[#0d211ce2]" />,
   },
 ];
 
@@ -84,7 +84,7 @@ const AI = () => {
       <div className="w-full bg-white shadow-2xl rounded-xl p-8 md:p-12 animate-fadeIn">
         {/* Header */}
         <header className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold text-gray-900 mb-2 leading-tight drop-shadow-sm">
+          <h1 className="text-2xl font-bold text-gray-900 mb-2 leading-tight drop-shadow-sm">
             AI Consulting & Resource Staffing Services
           </h1>
           <p className="text-lg text-gray-600 font-semibold tracking-wide">
@@ -101,7 +101,7 @@ const AI = () => {
 
         {/* AI Services Section */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-green-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-green-300 pb-3 tracking-wide">
             Our AI Services Include:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -116,7 +116,7 @@ const AI = () => {
                   {icon}
                 </div>
                 <div className="flex flex-col justify-center">
-                  <h3 className="text-2xl font-semibold text-green-900 mb-1">{title}</h3>
+                  <h3 className="text-xl font-semibold text-green-900 mb-1">{title}</h3>
                   <p className="text-gray-700 text-lg leading-relaxed">{description}</p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ const AI = () => {
 
         {/* Staffing Roles Section */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-green-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-green-300 pb-3 tracking-wide">
             AI Resource Staffing & Talent Solutions
           </h2>
           <ul className="space-y-4 text-lg text-gray-700">
@@ -141,7 +141,7 @@ const AI = () => {
 
         {/* Hiring Models Section */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-green-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-green-300 pb-3 tracking-wide">
             Flexible Engagement Models:
           </h2>
           <ul className="space-y-4 text-lg text-gray-700">
@@ -156,7 +156,7 @@ const AI = () => {
 
         {/* Reasons to Choose AI Expertise Section */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-green-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-green-300 pb-3 tracking-wide">
             Why Partner with Intelli Tek IT Solutions?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -19,27 +19,27 @@ const services = [
     description: 'Implement multi-layered defense mechanisms to secure your network, endpoints, and devices from unauthorized access and malware.',
   },
   {
-    icon: <ChartBar className="w-6 h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
+    icon: <ChartBar className="w-20 h-20 md:w-6 md:h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
     title: 'Security Information & Event Management (SIEM)',
     description: 'Get real-time visibility into potential threats with intelligent monitoring, incident detection, and response systems.',
   },
   {
-    icon: <Eye className="w-6 h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
+    icon: <Eye className="w-20 h-20 md:w-6 md:h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
     title: 'Vulnerability Management & Penetration Testing',
     description: 'Simulate attacks to uncover and fix security gaps before they’re exploited by malicious actors.',
   },
   {
-    icon: <Folder className="w-6 h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
+    icon: <Folder className="w-20 h-20 md:w-6 md:h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
     title: 'Data Protection & Encryption',
     description: 'Protect sensitive business data with robust encryption techniques and access control policies.',
   },
   {
-    icon: <Globe className="w-6 h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
+    icon: <Globe className="w-20 h-20 md:w-6 md:h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
     title: 'Cloud Security',
     description: 'Secure your cloud environments (AWS, Azure, Google Cloud) with identity management, threat detection, and automated policies.',
   },
   {
-    icon: <Book className="w-6 h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
+    icon: <Book className="w-20 h-20 md:w-6 md:h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
     title: 'Security Awareness Training',
     description: 'Empower your workforce with training programs designed to recognize and respond to phishing attacks and social engineering tactics.',
   },
@@ -48,17 +48,17 @@ const services = [
 const reasons = [
   { title:'Industry Experience ',
     description: "Proven success across diverse sectors including finance, healthcare, retail, and manufacturing",
-    icon:<FaUserTie className="w-46 h-46 text-gray-600" />},
+    icon:<FaUserTie className="w-36 h-36 m-auto text-gray-600" />},
 
   { title:'Tailored Solutions' ,
     description:'Customized cybersecurity strategies to match your unique business needs',
-    icon:<FaTools className="w-46 h-46 text-[#645cd8]" />},
+    icon:<FaTools className="w-36 h-36 m-auto text-[#645cd8]" />},
   {title:'Certified Experts' ,
     description:' A team of professionals with leading certifications (CISSP, CEH, CISA, etc.)',
-    icon:<GrUserExpert  className="w-46 h-46 text-[#136599]"/>},
+    icon:<GrUserExpert  className="w-36 h-36 m-auto text-[#136599]"/>},
   {title:'End-to-End Support' ,
     description:' From assessment to implementation and ongoing monitoring', 
-    icon:<FaHeadset  className="w-46 h-46  text-[#0d211ce2]"/>}
+    icon:<FaHeadset  className="w-36 h-36 m-auto  text-[#0d211ce2]"/>}
 ];
 
 const extraCertifiedInfo = "Our certified experts have years of hands-on experience, ensuring your cybersecurity needs are comprehensively met with the highest standards.";
@@ -80,7 +80,7 @@ const Cyber = () => {
         <div className="w-full bg-white shadow-2xl rounded-xl p-8 md:p-12 animate-fadeIn">
           {/* Header */}
           <header className="text-center mb-12">
-            <h1 className="text-4xl font-extrabold text-gray-900 mb-2 leading-tight drop-shadow-sm">
+            <h1 className="text-2xl font-bold text-gray-900 mb-2 leading-tight drop-shadow-sm">
               Cybersecurity Services by Intelli Tek IT Solutions Technologies
             </h1>
             <p className="text-lg text-gray-600 font-semibold tracking-wide">
@@ -90,7 +90,7 @@ const Cyber = () => {
 
           {/* Services Section */}
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
+            <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
               Our Cybersecurity Offerings Include:
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -105,7 +105,7 @@ const Cyber = () => {
                     {icon}
                   </div>
                   <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl font-semibold text-blue-900 mb-1">{title}</h3>
+                    <h3 className="text-xl font-semibold text-blue-900 mb-1">{title}</h3>
                     <p className="text-gray-700 text-lg leading-relaxed">{description}</p>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const Cyber = () => {
 
           {/* Why Choose Section */}
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-6 border-b border-blue-300 pb-3 tracking-wide">
+            <h2 className="text-xl font-bold text-black mb-6 border-b border-blue-300 pb-3 tracking-wide">
               Why Choose Andhus Technologies for Cybersecurity?
             </h2>
             <div className='grid grid-cols-1 sm:flex sm:flex-row gap-10 p-6 md:p-10 bg-gray-100'>

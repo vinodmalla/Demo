@@ -18,31 +18,31 @@ function Home() {
       title: 'Your Strategic Partner in Global IT Staffing',
       description:
         "At Intelli Tek IT Solutions, we understand that having the right talent is crucial to implementing innovative technical solutions and unlocking sustainable business growth. Founded with a mission to bridge the gap between opportunity and skilled professionals, we are proud to be a game changer in the IT staffing industry. With our rapid expansion strategy, we are poised to grow our presence across new geographies and industries",
-      icon: <BusinessCenterIcon sx={{ fontSize: 160 }} />,
+      icon: <BusinessCenterIcon sx={{ fontSize: 140 }} />,
     },
     {
       title: 'A Reliable Partner in IT Staffing',
       description:
         "Intelli Tek IT Solutions offers tailored IT staffing solutions designed to meet the specific needs of your organization. We take a client-first approach, focusing on understanding your unique requirements and delivering qualified candidates who align with your business goals. Our comprehensive screening process ensures that we present only the most suitable and skilled candidates. We prioritize both quality and speed—because we know that in today's fast-paced world, your time is valuable. With Techgene, you receive efficient, reliable, and responsive staffing suppo",
-      icon: <HubIcon sx={{ fontSize: 160 }} />,
+      icon: <HubIcon sx={{ fontSize: 140 }} />,
     },
     {
       title: 'Building a Strong Network of Talent',
       description:
         "Over the years, we have built a dynamic network of talented IT professionals—from fresh graduates to experienced experts. Whether you're looking for short-term contract staff or long-term permanent hires, Techgene delivers staffing solutions that are timely, flexible, and legally compliant with local labor laws. For employers, we provide consistent, strategic staffing services to help maintain business momentum. For job seekers, we offer access to top opportunities that match your skills and aspirations. Our data-driven recruitment process respects both client expectations and candidate ambitions, ensuring a win-win for everyone.",
-      icon: <PeopleAltIcon sx={{ fontSize: 160 }} />,
+      icon: <PeopleAltIcon sx={{ fontSize: 140 }} />,
     },
     {
       title: 'Your Trusted Partner in Strategic Staffing',
       description:
         "At Intelli Tek IT Solutions, our team of seasoned recruiters and HR professionals brings years of hands-on experience in the staffing industry. We leverage this deep expertise to deliver high-quality talent swiftly and efficiently—tailored to meet the unique needs of your organization. Whether you're looking for offshore, nearshore, or temporary staffing solutions, we provide flexible, scalable services designed to support your business goals and workforce strategies",
-      icon: <GroupWorkIcon sx={{ fontSize: 160 }} />,
+      icon: <GroupWorkIcon sx={{ fontSize: 140 }} />,
     },
     {
       title: 'A Commitment to Excellence in Service',
       description:
         "What sets Intelli Tek IT Solutions apart is our unwavering dedication to exceptional service—for both clients and candidates. We believe that successful staffing goes beyond just filling positions; it's about building strong, lasting partnerships. We take pride in our transparent, consultative approach, offering ongoing support and guidance throughout the hiring process. From initial consultation to final onboarding, our team is here to ensure a smooth, efficient experience every step of the way.",
-      icon: <StarRateIcon sx={{ fontSize: 160 }} />,
+      icon: <StarRateIcon sx={{ fontSize: 140 }} />,
     },
   ];
 
@@ -56,7 +56,7 @@ function Home() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex items-center justify-center px-4 z-10 bg-black/50">
-          <h1 className="text-white text-2xl mt-100 md:text-6xl font-extrabold text-center flex flex-wrap justify-center leading-relaxed">
+          <h1 className="text-white text-2xl mt-100 md:text-4xl font-extrabold text-center flex flex-wrap justify-center leading-relaxed">
             {words.map((word, index) => (
               <motion.span
                 key={index}

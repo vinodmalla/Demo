@@ -5,32 +5,32 @@ import Button from '@mui/material/Button';
 
 const biServices = [
   {
-    icon: <ChartBar className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <ChartBar className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'BI Strategy & Roadmap Development',
     description: 'We collaborate with your team to define a BI vision aligned with business goals and build a clear implementation roadmap.',
   },
   {
-    icon: <Settings className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <Settings className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'Data Integration & Warehousing',
     description: 'We unify data from various sources into a scalable, reliable data warehouse to support analytics and reporting.',
   },
   {
-    icon: <PieChart className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <PieChart className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'Dashboard & Reporting Solutions',
     description: 'Interactive dashboards and visual reports using Power BI, Tableau, and Looker to provide real-time business insights.',
   },
   {
-    icon: <BarChart3 className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <BarChart3 className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'Advanced Analytics & Predictive Modeling',
     description: 'Forecast trends and uncover patterns using AI, ML, and predictive algorithms for smarter decisions.',
   },
   {
-    icon: <ShieldCheck className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <ShieldCheck className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'Data Governance & Quality Management',
     description: 'Implement governance frameworks to ensure accuracy, consistency, and compliance across BI systems.',
   },
   {
-    icon: <Cloud className="w-6 h-6 text-indigo-600 group-hover:text-indigo-900" />,
+    icon: <Cloud className="w-20 h-20 md:w-6 md:h-6 text-indigo-600 group-hover:text-indigo-900" />,
     title: 'Cloud BI & Modernization',
     description: 'Migrate legacy systems to modern, cloud-based BI platforms to boost performance and scalability.',
   },
@@ -40,22 +40,22 @@ const biReasons = [
   {
     title: 'Domain Expertise',
     description: 'Deep experience across finance, healthcare, retail, and manufacturing sectors.',
-    icon: <FaUserTie className="w-46 h-46 text-gray-700 mx-auto" />,
+    icon: <FaUserTie className="w-36 h-36 text-gray-700 mx-auto" />,
   },
   {
     title: 'Tool-Agnostic Approach',
     description: 'Skilled in Power BI, Tableau, Qlik, Looker, Google Data Studio, and more.',
-    icon: <FaCogs className="w-46 h-46 text-[#4a63d1] mx-auto" />,
+    icon: <FaCogs className="w-36 h-36 text-[#4a63d1] mx-auto" />,
   },
   {
     title: 'Customized Solutions',
     description: 'BI solutions aligned with your unique business goals and data infrastructure.',
-    icon: <FaRegLightbulb className="w-46 h-46 text-[#f59e0b] mx-auto" />,
+    icon: <FaRegLightbulb className="w-36 h-36 text-[#f59e0b] mx-auto" />,
   },
   {
     title: 'Certified Consultants',
     description: 'Professionals with hands-on experience and top industry certifications.',
-    icon: <FaCheckCircle className="w-46 h-46 text-[#059669] mx-auto" />,
+    icon: <FaCheckCircle className="w-36 h-36 text-[#059669] mx-auto" />,
   },
 ];
 
@@ -71,7 +71,7 @@ const BIConsulting = () => {
         <div className="w-full bg-white shadow-2xl rounded-xl p-8 md:p-12 animate-fadeIn">
           {/* Header */}
           <header className="text-center mb-12">
-            <h1 className="text-4xl font-extrabold text-gray-900 mb-2 leading-tight">
+            <h1 className="text-2xl font-bold text-gray-900 mb-2 leading-tight">
               Business Intelligence (BI) Consulting Services
             </h1>
             <p className="text-lg text-gray-600 font-semibold tracking-wide">
@@ -81,7 +81,7 @@ const BIConsulting = () => {
 
           {/* Services */}
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-8 border-b border-indigo-300 pb-3 tracking-wide">
+            <h2 className="text-xl font-bold text-black mb-8 border-b border-indigo-300 pb-3 tracking-wide">
               Our BI Consulting Services Include:
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -104,7 +104,7 @@ const BIConsulting = () => {
 
           {/* Why Choose */}
           <section className="mb-14">
-            <h2 className="text-3xl font-bold text-black mb-6 border-b border-indigo-300 pb-3 tracking-wide">
+            <h2 className="text-xl font-bold text-black mb-6 border-b border-indigo-300 pb-3 tracking-wide">
               Why Choose Intelli Tek IT Solutions for BI Consulting?
             </h2>
             <div className="grid grid-cols-1 sm:flex sm:flex-row gap-10 p-6 md:p-10 bg-gray-100">
@@ -122,7 +122,7 @@ const BIConsulting = () => {
 
           {/* Footer / CTA */}
           <footer className="text-center">
-            <h2 className="text-2xl font-semibold text-black mb-4 drop-shadow-sm">
+            <h2 className="text-xl font-semibold text-black mb-4 drop-shadow-sm">
               Turn Your Data Into a Strategic Asset
             </h2>
             <p className="text-gray-700 mb-8 px-4 md:px-32 max-w-3xl mx-auto leading-relaxed tracking-wide">

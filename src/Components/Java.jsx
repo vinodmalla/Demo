@@ -1,32 +1,32 @@
 import React, { useState } from 'react';
 import { AiOutlineApi } from 'react-icons/ai';
 import { MdUpdate, MdSettings } from 'react-icons/md';
-import { FaUsers, FaHandshake, FaCheckCircle } from 'react-icons/fa';
+import { FaUsers, FaHandshake, FaLock ,FaCheckCircle} from 'react-icons/fa';
 import { BsFillPeopleFill } from 'react-icons/bs';
 import { Button } from '@mui/material';
 import { X } from 'react-feather';
 
 const javaServices = [
   {
-    icon: <AiOutlineApi className="w-6 h-6 text-blue-600" />,
+    icon: <AiOutlineApi className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'Custom Java Application Development',
     description:
       'From enterprise applications to web platforms and mobile solutions, we build robust and secure Java-based systems tailored to your needs.',
   },
   {
-    icon: <MdUpdate className="w-6 h-6 text-blue-600" />,
+    icon: <MdUpdate className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'Legacy System Modernization',
     description:
       'Upgrade legacy applications to modern Java architectures to improve performance, scalability, and security.',
   },
   {
-    icon: <MdSettings className="w-6 h-6 text-blue-600" />,
+    icon: <MdSettings className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'API Development & System Integration',
     description:
       'Seamlessly connect Java applications with third-party tools, cloud services, and internal systems for streamlined workflows.',
   },
   {
-    icon: <FaUsers className="w-6 h-6 text-blue-600" />,
+    icon: <FaUsers className="w-20 h-20 md:w-6 md:h-6 text-blue-600" />,
     title: 'Maintenance & Support',
     description:
       'Keep your Java applications running at peak performance with proactive support, issue resolution, and continuous improvements.',
@@ -54,22 +54,22 @@ const javaReasons = [
   {
     title: 'Expert Java Talent',
     description: 'Access a pre-vetted network of certified Java professionals.',
-    icon: <FaUsers className="w-46 h-46 m-auto text-gray-600" />,
+    icon: <FaUsers className="w-36 h-36 m-auto text-gray-600" />,
   },
   {
     title: 'Fast & Scalable Staffing',
     description: 'Quick turnaround to onboard talent for urgent projects.',
-    icon: <FaHandshake className="w-46 h-46 m-auto text-[#645cd8]" />,
+    icon: <FaHandshake className="w-36 h-36 m-auto text-[#645cd8]" />,
   },
   {
     title: 'Domain Knowledge',
     description: 'Experience across sectors including banking, retail, healthcare, logistics, and more.',
-    icon: <BsFillPeopleFill className="w-46 h-46 m-auto text-[#136599]" />,
+    icon: <BsFillPeopleFill className="w-36 h-36 m-auto text-[#136599]" />,
   },
   {
     title: 'End-to-End Services',
     description: 'From talent sourcing to onboarding and performance monitoring.',
-    icon: <FaCheckCircle className="w-46 h-46 m-auto text-[#0d211ce2]" />,
+    icon: <FaCheckCircle className="w-36 h-36 m-auto text-[#0d211ce2]" />,
   },
 ];
 
@@ -84,7 +84,7 @@ const Java = () => {
       <div className="w-full bg-white shadow-2xl rounded-xl p-8 md:p-12 animate-fadeIn">
         {/* Header */}
         <header className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold text-gray-900 mb-2 leading-tight drop-shadow-sm">
+          <h1 className="text-2xl font-bold text-gray-900 mb-2 leading-tight drop-shadow-sm">
             Java Development & Resource Staffing Services
           </h1>
           <p className="text-lg text-gray-600 font-semibold tracking-wide">
@@ -101,7 +101,7 @@ const Java = () => {
 
         {/* Services */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Our Java Services Include:
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -114,7 +114,7 @@ const Java = () => {
                   {icon}
                 </div>
                 <div className="flex flex-col justify-center">
-                  <h3 className="text-2xl font-semibold text-blue-900 mb-1">{title}</h3>
+                  <h3 className="text-xl font-semibold text-blue-900 mb-1">{title}</h3>
                   <p className="text-gray-700 text-lg leading-relaxed">{description}</p>
                 </div>
               </div>
@@ -124,14 +124,14 @@ const Java = () => {
 
         {/* Java Roles */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-6 border-b border-blue-300 pb-3">
+          <h2 className="text-xl font-bold text-black mb-6 border-b border-blue-300 pb-3">
             Java Staffing & Resource Augmentation
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <ul className="space-y-3 text-lg text-gray-700 flex-1">
               {javaRoles.map((role, idx) => (
                 <li key={idx} className="flex items-center">
-                  <FaCheckCircle className="text-green-500 mr-3" /> {role}
+                  ✅  {role}
                 </li>
               ))}
             </ul>
@@ -145,14 +145,14 @@ const Java = () => {
 
         {/* Hiring Models */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-6 border-b border-blue-300 pb-3">
+          <h2 className="text-xl font-bold text-black mb-6 border-b border-blue-300 pb-3">
             Flexible Hiring Models:
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <ul className="space-y-3 text-lg text-gray-700 flex-1">
               {hiringModels.map((model, idx) => (
                 <li key={idx} className="flex items-center">
-                  <FaCheckCircle className="text-green-500 mr-3" /> {model}
+                  ✅ {model}
                 </li>
               ))}
             </ul>
@@ -166,7 +166,7 @@ const Java = () => {
 
         {/* Why Choose */}
         <section className="mb-14">
-          <h2 className="text-3xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
+          <h2 className="text-xl font-bold text-black mb-8 border-b border-blue-300 pb-3 tracking-wide">
             Why Choose Intelli Tek IT Solutions?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
