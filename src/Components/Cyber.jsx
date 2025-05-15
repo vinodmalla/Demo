@@ -177,7 +177,7 @@ const Cyber = () => {
               Contact Us
             </h3>
             <p className="mb-6 text-gray-700 text-center">
-              Thank you for your interest! Please reach out via email at <a href="mailto:contact@andhustech.com" className="text-blue-600 underline">contact@andhustech.com</a> or call <a href="tel:+1234567890" className="text-blue-600 underline">+1 (234) 567-890</a>.
+              Thank you for your interest! Please reach out via email at <a href="mailto:contact@intellitekits.com" className="text-blue-600 underline">contact@intellitekits.com</a> or call <a href="tel:+1727641-3777" className="text-blue-600 underline">+1 (727) 641-3777</a>.
             </p>
             <Button
               variant="contained"

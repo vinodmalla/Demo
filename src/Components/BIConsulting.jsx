@@ -164,7 +164,7 @@ const BIConsulting = () => {
               Contact Us
             </h3>
             <p className="mb-6 text-gray-700 text-center">
-              Reach out via email at <a href="mailto:contact@intellitek.com" className="text-indigo-600 underline">contact@intellitek.com</a> or call <a href="tel:+1234567890" className="text-indigo-600 underline">+1 (234) 567-890</a>.
+              Reach out via email at <a href="mailto:contact@intellitekits.com" className="text-indigo-600 underline">contact@intellitekits.com</a> or call <a href="tel:+1727641-3777" className="text-indigo-600 underline">+1 (727) 641-3777</a>.
             </p>
             <Button
               variant="contained"

@@ -162,8 +162,8 @@ const SalesforceServices = () => {
               <X className="w-6 h-6" />
             </button>
             <h3 className="text-2xl font-bold text-blue-900 mb-4 text-center">Contact Us</h3>
-            <p className="mb-6 text-gray-700 text-center">
-              Reach out via email at <a href="mailto:contact@intellitek.com" className="text-blue-600 underline">contact@intellitek.com</a> or call <a href="tel:+1234567890" className="text-blue-600 underline">+1 (234) 567-890</a>.
+              <p className="mb-6 text-gray-700 text-center">
+              Reach out via email at <a href="mailto:contact@intellitekits.com" className="text-indigo-600 underline">contact@intellitekits.com</a> or call <a href="tel:+1727641-3777" className="text-indigo-600 underline">+1 (727) 641-3777</a>.
             </p>
             <Button fullWidth variant="contained" color="primary" onClick={closeModal} sx={{ fontWeight: 'bold', textTransform: 'none' }}>
               Close

@@ -22,7 +22,7 @@ const Footer = () => {
 
           </p>
           <p className="flex items-center text-sm text-gray-300">
-            <Mail className="h-4 w-4 mr-2" /> contact@intellitek.com
+            <Mail className="h-4 w-4 mr-2" />contact@intellitekits.com
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="mailto:contact@intellitek.com" className="hover:text-green-400 transition">
+            <a href="mailto:contact@intellitekits.com" className="hover:text-green-400 transition">
               <Mail className="h-5 w-5" />
             </a>
           </div>

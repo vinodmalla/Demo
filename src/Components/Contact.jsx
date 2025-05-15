@@ -30,7 +30,7 @@ const Contact = () => {
               <Phone className="h-5 w-5 mr-2 text-gray-500" /> +1 (727) 641-3777
             </p>
             <p className="flex items-center">
-              <Mail className="h-5 w-5 mr-2 text-gray-500" /> contact@intellitek.com
+              <Mail className="h-5 w-5 mr-2 text-gray-500" /> contact@intellitekits.com
             </p>
             <p className="flex items-center">
               <MapPin className="h-5 w-5 mr-2 text-gray-500" /> America

@@ -228,15 +228,8 @@ const Java = () => {
             <h3 className="text-2xl font-bold text-indigo-900 mb-4 text-center">
               Contact Us
             </h3>
-            <p className="mb-6 text-gray-700 text-center">
-              Reach out via email at{' '}
-              <a
-                href="mailto:contact@intellitek.com"
-                className="text-blue-600 font-medium underline"
-              >
-                contact@intellitek.com
-              </a>{' '}
-              and our team will get back to you promptly.
+             <p className="mb-6 text-gray-700 text-center">
+              Reach out via email at <a href="mailto:contact@intellitekits.com" className="text-indigo-600 underline">contact@intellitekits.com</a> or call <a href="tel:+1727641-3777" className="text-indigo-600 underline">+1 (727) 641-3777</a>.
             </p>
             <div className="text-center">
               <Button
