@@ -9,12 +9,12 @@ import { FaUserTie } from "react-icons/fa";
 
 const services = [
   {
-    icon: <Lock className="w-6 h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
+    icon: <Lock className="w-20 h-20 md:w-6 md:h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
     title: 'Risk Assessment & Compliance',
     description: 'Identify vulnerabilities in your infrastructure and ensure compliance with industry standards such as ISO 27001, GDPR, HIPAA, and more.',
   },
   {
-    icon: <Shield className="w-6 h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
+    icon: <Shield className="w-20 h-20 md:w-6 md:h-6 text-blue-600 transition-colors duration-300 group-hover:text-blue-900" />,
     title: 'Network & Endpoint Security',
     description: 'Implement multi-layered defense mechanisms to secure your network, endpoints, and devices from unauthorized access and malware.',
   },
