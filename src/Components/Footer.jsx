@@ -3,7 +3,7 @@ import { Instagram, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-40  md:mt-auto w-full">
+    <footer className="bg-gray-900 text-white py-10 md:py-10  md:mt-auto w-full">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
 
         {/* Company Info */}
