@@ -18,7 +18,7 @@ export default function Header() {
           <img className='w-66 md:w-72' src={logo1} alt='Intelli Tek' />
         </Link>
         <Link to="/">
-        <h1 className=' mt-12 md:mt-16 p-0 sm:text-[8px] text-xs  text-black font-semibold  md:text-xl md:font-bold'>Intelli Tek IT Solutions</h1>
+        <h1 className=' mt-12 md:mt-16 p-0 sm:hidden text-xs  text-black font-semibold  md:text-xl md:font-bold'>Intelli Tek IT Solutions</h1>
         </Link>
       </div>
 
