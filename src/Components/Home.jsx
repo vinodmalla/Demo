@@ -56,7 +56,7 @@ function Home() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex items-center justify-center px-4 z-10 bg-black/50">
-          <h1 className="text-white text-2xl mt-100 md:text-4xl font-extrabold text-center flex flex-wrap justify-center leading-relaxed">
+          <h1 className="text-white sm:text-lg text-2xl mt-100 md:text-4xl font-extrabold text-center flex flex-wrap justify-center leading-relaxed">
             {words.map((word, index) => (
               <motion.span
                 key={index}
