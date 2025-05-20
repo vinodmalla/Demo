@@ -15,7 +15,7 @@ export default function Header() {
    <div className='fixed top-0 left-0 w-full z-50 bg-gray-900  shadow-md flex items-center justify-between h-16 px-4 md:px-8'>
       <div className='flex'>
         <Link to="/">
-          <img className='w-66  md:w-92' src={logo1} alt='Intelli Tek' />
+          <img className='w-86  md:w-92' src={logo1} alt='Intelli Tek' />
         </Link>
         <Link to="/">
         <h1 className=' mt-12 md:mt-16 p-0 sm:hidden text-xs  text-white   font-semibold  md:text-xl md:font-bold'>Intelli Tek IT Solutions</h1>
